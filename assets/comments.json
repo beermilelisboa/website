@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Philipe Oliveira Rodrigues",
+        "country": "Brasil",
+        "feedback": "Que bom evento! Estou ansioso pelo próximo!"
+    },
+    
+    {
+        "name": "Viktor Fredlund",
+        "country": "Alemanha",
+        "feedback": "Thanks for a really fun event! I would definitely do it again!"
+    },
+    {
+        "name": "Sérgio Freitas",
+        "country": "Portugal",
+        "feedback": "Obrigado pelo evento.  Top de organização."
+    },
+    {
+        "name": "Gonçalo Oliveira",
+        "country": "Portugal",
+        "feedback": "Evento espetacular! Bom ambiente, boa organização, um dia bem passado. Já comecei a treinar para a próxima edição"
+    },
+    {
+        "name": "Guilherme Salvador",
+        "country": "Portugal",
+        "feedback": "Olá, gostei muito de vos conhecer e do vosso projeto!! Obrigado a toda a organização"
+    },
+    {
+        "name": "Beatriz Sousa",
+        "country": "Brasil",
+        "feedback": "Obrigada pelo evento e por toda a experiência. Já espalhei a palavra para todos, mal podemos esperar pela próxima"
+    },
+    {
+        "name": "Marco Freitas",
+        "country": "Portugal",
+        "feedback": "A beer mile foi fantástica! Um mega agradecimento a toda a organização, que fizeram a minha experiência memorável. Mal posso esperar pela próxima edição!"
+    },
+    {
+        "name": "Rui Pinto",
+        "country": "Portugal",
+        "feedback": "Para o ano lá estaremos! Obrigado pelos bons momentos que proporcionaram!"
+    }
+
+]
