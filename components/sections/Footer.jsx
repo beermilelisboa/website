@@ -8,7 +8,8 @@ import { SocialIcon } from 'react-social-icons'
 export default function Footer() {
 
     function scrollToTop(e) {
-        scrollTo({ top: 0, behavior: 'smooth' })
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+        
     }
 
     const [scrolling, setScrolling] = useState(false);
