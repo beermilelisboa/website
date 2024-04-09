@@ -1,18 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "picsum.photos",
-        pathname: "/**",
-        loader: 'akamai',
-        path: '',
-      },
-    ],
-  },
-  assetPrefix: './',
+  basePath: "/website",
+  output: "export",  // <=== enables static exports
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
