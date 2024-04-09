@@ -1,9 +1,9 @@
 # File: .github/workflows/publish.yml
-name: publish-to-github-pages
+name: GitHub Pages deploy
+
 on:
   push:
-    branches:
-      - master
+    branches: [main]
 
 permissions:
   contents: read
@@ -48,4 +48,4 @@ jobs:
     steps:
       - name: Publish to GitHub Pages 🚀
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 
