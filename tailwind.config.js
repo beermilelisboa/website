@@ -18,9 +18,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "beer-pattern": "url('../assets/bg-pattern.png')",
-        "beer-pattern-alt": "url('../assets/bg-pattern-alt.png')",
-        "beer-foam": "url('../assets/banner-foam.png')",
+        "beer-pattern": "url('../public/assets/bg-pattern.png')",
+        "beer-pattern-alt": "url('../public/assets/bg-pattern-alt.png')",
+        "beer-foam": "url('../public/assets/banner-foam.png')",
       },
       fontSize:{
         '3.5xl': '2rem',
@@ -30,6 +30,7 @@ module.exports = {
       },
       fontFamily:{
         'impact': ['Impact', 'sans-serif'],
+        'montserrat': ['Montserrat', 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",

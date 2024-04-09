@@ -49,7 +49,7 @@ export default function Ed23() {
         {feedback.map((comment, index) => {
           return (
             <FadeInContent key={index}>
-              <Card className={`px-5 h-fit border-[0] shadow-xl  rounded-3xl bg-slate-900/55 backdrop-blur-md`}>
+              <Card className={`select-none px-5 h-fit border-[0] shadow-xl hover:bg-light-brown hover:font-medium hover:bg-opacity-55 last:hover:font-medium transition-all duration-150 ease-in  rounded-3xl bg-slate-900/55 backdrop-blur-md`}>
                 <CardHeader>
                   <CardTitle className='text-3xl font-medium'>
                     {comment.name}
@@ -58,7 +58,7 @@ export default function Ed23() {
                     {comment.country}
                   </CardDescription>
                 </CardHeader>
-                <CardContent className='font-light text-white'>
+                <CardContent className='font-light  text-white'>
                   {'"' + comment.feedback + '"'}
                 </CardContent>
               </Card>

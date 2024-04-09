@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import minibeer from '@/assets/logo.png'
+import minibeer from '/public/assets/logo.png'
 import Image from 'next/image'
 import { toast } from 'sonner'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from './ui/tooltip'
@@ -44,7 +44,7 @@ export default function MiniBeer() {
 
     return (
         <div onClick={displayInfo}
-            className='fixed bottom-0 right-4 animate-bounce duration-[1200] hover:bg-opacity-15 cursor-help drop-shadow-xl'>
+            className='fixed bottom-6 right-10 animate-bounce duration-[1200] hover:bg-opacity-15 cursor-help drop-shadow-xl'>
                 <TooltipProvider>
                     <Tooltip open={open} delayDuration={0}>
                         <TooltipTrigger>
