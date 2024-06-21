@@ -1,12 +1,9 @@
 'use client'
-import EventInfo from "@/components/EventInfo";
 import MiniBeer from "@/components/MiniBeer";
-import Partners from "@/components/Partners";
 import Ed23 from "@/components/editions/23/Ed23";
 import BeerHeader from "@/components/sections/BeerHeader";
 import DefinitionSection from "@/components/sections/DefinitionSection";
 import Footer from "@/components/sections/Footer";
-import { useEffect, useState } from "react";
 
 export default function Home() {
  /*  const [drinkScale, setDrinkScale] = useState(1);
