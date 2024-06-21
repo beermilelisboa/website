@@ -31,7 +31,7 @@ export default function Partners() {
                     </CarouselItem>
                     <CarouselItem className="md:basis-1/2 lg:basis-1/3 pl-10 drop-shadow-md mx-auto cursor-pointer">
                         <Link href={"https://www.osbelenenses.com/"} target='_blank'>
-                            <Image src={bel} className='lg:w-[180px] lg:h-[200px] md:w-[80px] md:h-[100px] w-[140px] h-[160px] mx-auto' />
+                            <Image src={bel} className='lg:w-[160px] lg:h-[200px] md:w-[60px] md:h-[100px] w-[120px] h-[160px] mx-auto' />
                         </Link>
                     </CarouselItem>
                 </CarouselContent>
