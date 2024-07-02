@@ -1,7 +1,8 @@
 'use client'
 import logo from '/public/assets/logo-alt.png'
-import { ArrowUp } from 'lucide-react'
+import { ArrowUp, ExternalLinkIcon } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { SocialIcon } from 'react-social-icons'
 
@@ -39,6 +40,11 @@ export default function Footer() {
                     <span>TEM ALGUMA QUESTÃO?</span>
                     <span>ENVIE-NOS UM EMAIL!</span>
                     <a className='text-white text-lg font-light underline tracking-normal' href="mailto:geral@beermilelisboa.pt">geral@beermilelisboa.pt</a>
+                    <Link target='_blank' href={'assets/regulamento.pdf'} className='text-white underline flex flex-row items-center gap-x-2 text-base font-light tracking-normal' >
+                        Regulamento
+                        <ExternalLinkIcon className='w-5 h-5 inline-block' />
+                    </Link>
+
                 </div>
                 <div className='flex flex-row lg:flex-col lg:justify-between drop-shadow-xl self-center lg:gap-y-3 gap-y-2'>
                     <SocialIcon target="_blank" url='https://instagram.pt/beermile_lx' network='instagram' bgColor='transparent' className='lg:scale-[2]' />
