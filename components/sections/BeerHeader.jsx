@@ -24,7 +24,7 @@ export default function BeerHeader() {
             <Image src={banner} className='sm:w-[50%] w-[74%] drop-shadow-md' alt='banner' />
             <div className='flex lg:flex-row flex-col gap-5 mt-10 justify-evenly lg:w-full self-center'>
                 {infoCard(<CalendarRangeIcon className='w-10 h-10 lg:w-16 lg:h-16  hover:stroke-light-yellow ' />, "3 AGOSTO 2024")}
-                {infoCard(<MapPinnedIcon className='w-10 h-10 lg:w-16 lg:h-16  hover:stroke-light-yellow' />, 'ESTÁDIO DO RESTELO', () => { window.open('https://maps.app.goo.gl/hT9vGJ2bMqULB5gm6', '_blank') })}
+                {infoCard(<MapPinnedIcon className='w-10 h-10 lg:w-16 lg:h-16  hover:stroke-light-yellow' />, 'PISTA DO UNIÃO ATLÉTICO POVOENSE', () => { window.open('https://maps.app.goo.gl/coZR5idUfXRxKRKW8', '_blank') })}
             </div>
         </section>
     )
