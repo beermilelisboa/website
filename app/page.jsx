@@ -1,5 +1,4 @@
 'use client'
-import MiniBeer from "@/components/MiniBeer";
 import Ed23 from "@/components/editions/23/Ed23";
 import BeerHeader from "@/components/sections/BeerHeader";
 import DefinitionSection from "@/components/sections/DefinitionSection";
@@ -32,7 +31,6 @@ export default function Home() {
       <DefinitionSection />
       <Ed23 />
       <Footer />
-      <MiniBeer />
      {/*  <div id="drink"
         style={{
           height: drinkScale + 'vh'
