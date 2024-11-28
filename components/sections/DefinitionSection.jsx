@@ -14,8 +14,10 @@ export default function DefinitionSection() {
                 </div>
                 <div className="lg:ml-4 mt-5 lg:self-center lg:mt-0 flex flex-col gap-y-3 tracking-tight lg:tracking-normal text-justify text-lg lg:text-xl xl:text-2xl font-semibold text-dark-brown lg:mx-[5%] lg:w-[40%] lg:gap-y-9 drop-shadow-sm">
                     <p>
-                        Uma <b>Beer Mile</b> é uma prova de carácter desportivo e
-                        recreativo que combina a cerveja e a cerveja.
+                        <i>
+                            Uma <b>Beer Mile</b> é uma prova de carácter desportivo e
+                            recreativo que combina a corrida e a cerveja.
+                        </i>
                     </p>
                     <p>
                         <i>
