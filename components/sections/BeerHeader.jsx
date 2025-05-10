@@ -1,6 +1,6 @@
 'use client'
 import banner_foam from '/public/assets/banner-foam.png'
-import banner from '/public/assets/banner.png'
+import banner from '/public/assets/banner-2025.png'
 import { CalendarRangeIcon, MapPinnedIcon } from 'lucide-react'
 import Image from 'next/image'
 export default function BeerHeader() {
@@ -23,7 +23,7 @@ export default function BeerHeader() {
             <Image src={banner_foam} className='-translate-y-1 self-center' alt='foam' />
             <Image src={banner} className='sm:w-[50%] w-[74%] drop-shadow-md' alt='banner' />
             <div className='flex lg:flex-row flex-col gap-5 mt-10 justify-evenly lg:w-full self-center'>
-                {infoCard(<CalendarRangeIcon className='w-10 h-10 lg:w-16 lg:h-16  hover:stroke-light-yellow ' />, "3 AGOSTO 2024")}
+                {infoCard(<CalendarRangeIcon className='w-10 h-10 lg:w-16 lg:h-16  hover:stroke-light-yellow ' />, "26 JULHO 2025")}
                 {infoCard(<MapPinnedIcon className='w-10 h-10 lg:w-16 lg:h-16  hover:stroke-light-yellow' />, 'PISTA DO UNIÃO ATLÉTICO POVOENSE', () => { window.open('https://maps.app.goo.gl/coZR5idUfXRxKRKW8', '_blank') })}
             </div>
         </section>

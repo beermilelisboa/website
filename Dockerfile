@@ -20,4 +20,4 @@ RUN npm install
 RUN npm run build
 
 # Start the app for production
-CMD ["npm", "run", "start"]
+CMD ["npx", "serve@latest", "out"]

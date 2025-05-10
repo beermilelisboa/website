@@ -58,7 +58,7 @@ export default function Footer() {
                     }}
                     onClick={scrollToTop} className=' w-12 h-12 p-2 cursor-pointer transition-all ease-in duration-100 hover:bg-dark-yellow hover:text-dark-brown text-dark-yellow fixed bottom-8 left-10 bg-dark-brown shadow-xl rounded-full' />
                 <Image src={logo} width={30} height={30} alt='logo' className='mr-2 drop-shadow-lg' />
-                <span className='drop-shadow-lg'>&copy; 2024 Beer Mile Lisboa</span>
+                <span className='drop-shadow-lg'>&copy; 2025 Beer Mile Lisboa</span>
             </div>
         </footer>
     )
