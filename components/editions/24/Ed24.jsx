@@ -36,7 +36,6 @@ export default function Ed24() {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
-        {/* <Pictures /> */}
       </div>
     </>
   );
