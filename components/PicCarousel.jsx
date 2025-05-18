@@ -15,7 +15,6 @@ const EmblaCarousel = ({ images }) => {
     [AutoScroll({ playOnInit: true , stopOnInteraction: false})],
   );
 
-
   return (
     <div className="w-full overflow-hidden" ref={emblaRef}>
       <div className="flex gap-4">
