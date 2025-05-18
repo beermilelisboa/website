@@ -1,9 +1,6 @@
 #!/bin/bash
 
-
-
 script_dir="$(dirname "$(realpath "$0")")"
-
 
 # Loop through all JPG files in the input directory
 for img in "$script_dir"/*.JPG; do
