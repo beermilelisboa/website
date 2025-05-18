@@ -30,11 +30,11 @@ export default function Ed24() {
           className="mx-auto h-[400px] md:h-[800px] w-[90%]"
           src="https://www.youtube.com/embed/WXmvzcfg4FA?list=PLQKcT4Vu1avEq0BvTsS0bDBPcbhNNjl9O"
           title="Beer Mile Lisboa 2024"
-          frameborder="0"
+          frameBorder="0"
           controls="0"
           allow="autoplay; gyroscope"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
         {/* <Pictures /> */}
       </div>
