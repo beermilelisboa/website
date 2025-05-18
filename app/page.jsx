@@ -1,9 +1,10 @@
 "use client";
+
 import feedback from "@/assets/comments.json";
 import Ed23 from "@/components/editions/23/Ed23";
 import Ed24 from "@/components/editions/24/Ed24";
 import FadeInContent from "@/components/FadeInContent";
-import { FAQ } from "@/components/FAQ";
+import FAQ from "@/components/FAQ";
 import MiniBeer from "@/components/MiniBeer";
 import Partners from "@/components/Partners";
 import BeerHeader from "@/components/sections/BeerHeader";
