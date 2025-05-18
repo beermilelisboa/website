@@ -3,6 +3,7 @@ import banner_foam from '/public/assets/banner-foam.png'
 import banner from '/public/assets/banner-2025.png'
 import { CalendarRangeIcon, MapPinnedIcon } from 'lucide-react'
 import Image from 'next/image'
+
 export default function BeerHeader() {
     /* px-10 lg:px-24 */
 
