@@ -8,7 +8,6 @@ import zecarteiro from "/public/assets/zecarteiro.png";
  */
 
 const imagesSrcs = [
-    "assets/Coral.png",
     "assets/UAP.png",
     "assets/zecarteiro.png",
 ]
