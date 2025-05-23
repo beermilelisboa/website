@@ -59,7 +59,7 @@ export default function Home() {
           <FAQ />
         </section>
         <Footer />
-        {/*<MiniBeer />*/}
+        <MiniBeer />
       </main>
     </>
   );

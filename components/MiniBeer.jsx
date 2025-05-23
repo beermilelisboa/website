@@ -28,7 +28,7 @@ export default function MiniBeer() {
       }, []);
       
       function displayInfo() {
-        window.open('https://docs.google.com/forms/d/1of9IjpLZZn_SdX0S-blVWyjohXOukW2mgngin7tZKTQ/edit?usp=drivesdk', '_blank')
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLSe7cOyENaVdvu0AxofM8XPbQzxH1TGbH_KPViB5_E1OrbXJVA/viewform?usp=header', '_blank')
        /*  toast.info('Inscrições em breve!', {
             style: {
                 fontFamily: 'Montserrat',
